@@ -1,0 +1,78 @@
+.pull-request-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.pull-request-details-container-title-page {
+    display: flex;
+    align-items: center;
+}
+
+.pull-request-details-title-page {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pull-request-details-container-title-page a {
+    color: black;
+    margin-left: 16px;
+}
+
+.pull-request-details-title-page:hover {
+    border-bottom: 2px solid black;
+}
+
+.pull-request-details-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pull-request-details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 656px;
+    border-radius: 8px;
+    background: white;
+    padding: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pull-request-details-card-avatar {
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.pull-request-details-card-author-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.pull-request-details-card-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.pull-request-details-card-description {
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    color: gray;
+}
+
+.pull-request-details-card-values {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 8px;
+}

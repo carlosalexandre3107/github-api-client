@@ -1,0 +1,10 @@
+.pull-request-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pull-request-container-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

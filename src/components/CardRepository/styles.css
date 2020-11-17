@@ -1,0 +1,66 @@
+.repository-card-container {
+    display: flex;
+    width: 456px;
+    border-radius: 8px;
+    background: white;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.repository-card-container:hover {
+    transform: scale(1.03);
+}
+
+.repository-card-container-data {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 16px;
+    justify-content: space-between;
+}
+
+.repository-card-avatar {
+    border-radius: 50%;
+}
+
+.repository-card-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.repository-card-owner-name {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.repository-card-description {
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 32px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: gray;
+}
+
+.repository-card-container-values {
+    display: flex;
+    align-items: center;
+}
+
+.repository-card-container-values span {
+    margin: 0px 8px;
+}
+
+.repository-card-number {
+    font-size: 12px;
+    color: grey;
+}

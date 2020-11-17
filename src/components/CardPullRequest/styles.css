@@ -1,0 +1,57 @@
+.pull-request-card-container {
+    display: flex;
+    width: 456px;
+    border-radius: 8px;
+    background: white;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.pull-request-card-container:hover {
+    transform: scale(1.03);
+}
+
+.pull-request-card-container-data {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    width: 332px;
+    justify-content: space-between;
+}
+
+.pull-request-card-avatar {
+    border-radius: 50%;
+}
+
+.pull-request-card-author-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.pull-request-card-title {
+    font-size: 14px;
+    margin-bottom:16px;
+}
+
+.pull-request-card-description {
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 32px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: gray;
+}
+
+.pull-request-card-create-at {
+    font-size: 14px;
+    color: gray;
+}
